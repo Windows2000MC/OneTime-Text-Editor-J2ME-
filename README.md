@@ -1,11 +1,26 @@
 # OneTime-Text-Editor-J2ME-
 OneTime Text Editor is an utility application for J2ME Phones and also Emulator [.e.g J2ME Loader]. This app uses High level UI (also known as Form ui) which doesn't required high-end phones. This is a normal text editor but it can save your text in RMS. You can take full control over your text. Also you can check your device's java API in this application. Also it has HTTP Connection support.
 
+# Features
+
+1. Supports saving and loading text from RMS Database
+2. HTTP Connection Support
+3. HTTPS Connection Support (Device dependent)
+4. Full Local Account on device support (currently on development)
+5. Has Easter Eggs (currently on development)
+
+# Project Distribution 
+
 This Project is a open-source and freeware. you can redistribute it and/or modify it!
+
+# Development 
 
 Coded on J2ME SDK Mobile on Symphony D54+
 
-Image section
+PaintCAD J2ME - Making Icons
+MiniCommander J2ME - File Management
+
+# Image section
 
 <img width="2448" height="3264" alt="1000053845" src="https://github.com/user-attachments/assets/4c3e1835-c6fd-493c-86fc-416e45002586" />
 <img width="2448" height="3264" alt="1000053842" src="https://github.com/user-attachments/assets/69f35d26-9911-47e9-8aa9-c341d444979c" />
