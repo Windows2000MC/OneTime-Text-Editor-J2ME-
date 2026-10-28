@@ -6,8 +6,9 @@ OneTime Text Editor is an utility application for J2ME Phones and also Emulator 
 1. Supports saving and loading text from RMS Database
 2. HTTP Connection Support
 3. HTTPS Connection Support (Device dependent)
-4. Full Local Account on device support (currently on development)
-5. Has Easter Eggs (currently on development)
+4. Full Local Account on device support
+5. Has Easter Eggs (type "3.14" in 'Password' screen)
+6. Viewing RMS Data (broken, not implemented)
 
 # Project Distribution 
 
@@ -19,6 +20,10 @@ Coded on J2ME SDK Mobile on Symphony D54+
 
 PaintCAD J2ME - Making Icons
 MiniCommander J2ME - File Management
+
+# Major Flaws
+
+1. Less Memory to compile - Symphony D54+ can give about 1.8 Megabytes of Java Heap Memory (1865 KB). This is ok for compiling 1 large MIDlet file or 2 to 3 smaller class files. but if the .java files became too large in each development phase, Compiling it takes alot of time and takes up way too much memory. In the last development phase of OneTime Text Editor, It took about 236 seconds to build the application, and any further development or bug fixing may failed to compile or 'Out of Memory' crash
 
 # Image section
 
