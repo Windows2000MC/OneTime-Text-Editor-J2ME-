@@ -25,6 +25,9 @@ MiniCommander J2ME - File Management
 
 1. Less Memory to compile - Symphony D54+ can give about 1.8 Megabytes of Java Heap Memory (1865 KB). This is ok for compiling 1 large MIDlet file or 2 to 3 smaller class files. but if the .java files became too large in each development phase, Compiling it takes alot of time and takes up way too much memory. In the last development phase of OneTime Text Editor, It took about 236 seconds to build the application, and any further development or bug fixing may failed to compile or 'Out of Memory' crash
 
+2. Slow Development - Symphony D54+ uses MT6260 chipset which is a MediaTek chip with clock speed about 300 to 350 MHz. Running J2ME SDK Mobile on this java phone is not too bad if the .java file and the project itself is small but for coding this huge MIDlet is very pain to code because of the lagging to handle the app and may have a chance to freeze itself or crashing the entire phone.
+
+
 # Image section
 
 <img width="2448" height="3264" alt="1000053845" src="https://github.com/user-attachments/assets/4c3e1835-c6fd-493c-86fc-416e45002586" />
